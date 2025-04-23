@@ -18,7 +18,7 @@ keys.forEach(key => {
         audio.play();
         key.classList.add('play');
     });
-}
+});
 
 keys.forEach(key => {
     key.addEventListener('transitionend', (e) => {

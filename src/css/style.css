@@ -14,10 +14,19 @@ body{
     height: 100vh;
     margin: 20;
 }
-
+.time{
+	position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-width: bolder;
+    color: #fff;
+    opacity: 0.8;
+}
 main{
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -51,6 +60,10 @@ main{
     .keys {
         width: 600px;
         max-width: 100%;
+    }
+    .time{
+		top: -15%;
+		font-size: 3rem;
     }
 }
 @media (max-width: 600px) {

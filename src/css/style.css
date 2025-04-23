@@ -44,6 +44,7 @@ main{
     opacity: 0.6;
     color: #fff;
     font-weight: bolder;
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 900px) {

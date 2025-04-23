@@ -1,0 +1,43 @@
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.play {
+    transform: scale(1.2);
+}
+
+.key {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333;
+}
+
+.key span {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
+
+.key kbd{
+    
+}
